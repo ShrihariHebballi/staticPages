@@ -1,0 +1,275 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: #fff7d3;
+}
+header
+{
+display: flex;
+background-color: #fff2e0;
+box-shadow: 1px 2px 2px 2px #997238;
+
+}
+.logo
+{
+	text-align: center;
+	width: 30%;
+	line-height: 1px;
+	
+}
+.logo h1{
+    font-size: xx-large;
+    font-family:Myfont;
+    color:#9b4b06;
+
+    }
+}
+.logo h6
+{
+    font-size: xx-small;
+    color:#9b4b06;
+}
+
+.menu
+{
+	width: 70%;
+}
+.menu ul
+{
+	display:flex;
+	list-style-type: none;
+	 
+
+}
+
+.menu a
+{
+	text-decoration: none;
+	padding: 15px;
+	justify-content: center;
+	 color:#7c3417;
+}
+
+.menu a:hover
+{
+	text-decoration:none;
+	background-color:#7c3417;
+	padding: 15px;
+	box-shadow: 1px 2px 2px #997238; 
+	color: #fff7f4;
+	border-radius: 2px;
+	
+
+}
+
+.one
+{
+	background-image:url(pebble.jpg);
+	background-repeat: no-repeat;
+	background-position: center; 
+	width: auto;
+	height: 500px;
+}
+.one h1{
+	color: white;
+}
+.one p{
+	color: white;
+}
+.one center
+{
+	position:relative;
+	text-align:center;
+	padding-top: 15%;
+}
+
+.one button {
+    background-color: white;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    color: #4CAF50;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    font-weight: bold;
+}
+.one button:hover {
+    border-radius: 10px;
+    border: 2px solid #4CAF50;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    font-weight: bold;
+}
+.two
+{
+	display: flex;
+}
+.link
+{
+	padding: 2%;
+	width: 50%;
+	background-color: #f7f5f4;
+	box-shadow: 1px 1px 1px #997238;
+	line-height: 1px;
+	
+}
+.link a{
+	text-align: center;
+	text-decoration: none;
+	color: #9b4b06;
+
+}
+.link h6{
+	text-align: center;
+	color:#9b4b06;
+} 
+.link:hover{
+	transform: rotateX(180;);
+
+}
+.donate
+{
+	padding: 2%;
+	width: 50%;
+	background-color: #ce4610;
+	box-shadow: 1px 1px 1px #997238;
+	line-height: 1px;
+	opacity: 60%;
+	
+}
+.donate h1{
+	color: white;
+
+}
+.donate p{
+	color: white;
+}
+
+.three
+{
+	display: flex;
+	background-color: #31af0e;
+	box-shadow: 1px 2px 1px #997238;
+	padding: 2%;
+	background-image:url(purple.jpg);
+	background-size: 45%;
+	background-position: right;
+	background-repeat: no-repeat;
+
+}
+ .three form{
+ 	color: white;
+ 	font-size: xx-large;
+ 	text-align: right;
+ }
+
+ .three p{
+ 	color: white;
+
+ }
+.four {
+    display: flex;
+    background-image: url(flower.jpg),url(yellow.jpg);
+    background-size:,contain;
+    box-shadow: 1px 1px 1px #997238;
+    height: 200px;
+    background-position: center;,right;
+    background-repeat: no-repeat,no-repeat;
+}
+.four img{
+	image-rendering: auto;
+	height: auto;
+	width: 39%;
+	position: relative;
+	box-shadow: 1px 1px 1px black;
+}
+
+
+.five
+{
+	display: flex;
+	padding: 2%;
+	box-shadow: 1px 1px 1px #997238;
+}
+.five div
+{
+	box-shadow: 1px 1px 1px #997238;
+	padding: 2%;
+}
+.five h2
+{
+	text-align: center;
+}
+.five p
+{
+	text-align: left;
+}
+
+.five button {
+    background-color:#fff7d3;
+    color: #7a5113;
+    border: 2px solid #7a5113;
+    margin-left: 46%;
+}
+
+.five button:hover {
+    background-color: #7a5113;
+    color: white;
+        margin-left: 46%;
+
+}
+footer
+{
+	
+	
+	padding: 2%;
+}
+
+.foomenu ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0%;
+}
+.foomenu a
+{
+	text-decoration: none;
+	padding:15px;
+	color: #7c3417;
+
+}
+.foomenu a:hover
+{
+	text-decoration:none;
+	background-color:#7c3417;
+	padding: 15px;
+	box-shadow: 1px 2px 2px #997238; 
+	color: #fff7f4;
+	border-radius: 2px;
+	
+
+}
+.contact {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 1px 2px 2px #997238; 
+
+}
+.follow
+{	
+
+	padding: 2%;
+}
+.newsletter
+{
+	padding: 2%;
+}
+.contdet
+{
+	padding: 2%;
+2
